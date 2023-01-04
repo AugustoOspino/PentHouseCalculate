@@ -27,40 +27,39 @@ if(tam>0){
                document.getElementById("result").innerHTML = ("Debe seleccionar la recurrencia ");
                break;
                case"1":
-               totalp = tam*859;
+               totalp = tam*984;
                document.getElementById("result").innerHTML = ("El valor estimado de una intervencion de limpieza es : <span style='background-color:yellow ;'> "+ formatterPeso.format(totalp)+"</span >" );
                mes=totalp*4.345;
                document.getElementById("result1").innerHTML = ("El valor estimado de su limpieza mensual es : <span style='background-color:yellow ;'>"+ formatterPeso.format(mes)+"</span >" );
                break;
                case"2":
-               totalp = tam*797;
+               totalp = tam*913;
                document.getElementById("result").innerHTML = ("El valor estimado de una intervencion de limpieza es : <span style='background-color:yellow ;'> "+ formatterPeso.format(totalp)+"</span >" );
                mes=totalp*4.345;
                document.getElementById("result1").innerHTML = ("El valor estimado de su limpieza mensual es : <span style='background-color:yellow ;'>"+ formatterPeso.format(mes)+"</span >" );
                break;
                case"3":
-               totalp = tam*742;
+               totalp = tam*850;
                document.getElementById("result").innerHTML = ("El valor estimado de una intervencion de limpieza es : <span style='background-color:yellow ;'> "+ formatterPeso.format(totalp)+"</span >" );
                mes=totalp*4.345;
                document.getElementById("result1").innerHTML = ("El valor estimado de su limpieza mensual es : <span style='background-color:yellow ;'>"+ formatterPeso.format(mes)+"</span >" );
                break;
                case"5":
-               totalp = tam*687;
+               totalp = tam*787;
                document.getElementById("result").innerHTML = ("El valor estimado de una intervencion de limpieza es : <span style='background-color:yellow ;'> "+ formatterPeso.format(totalp)+"</span >" );
                mes=totalp*4.345;
                document.getElementById("result1").innerHTML = ("El valor estimado de su limpieza mensual es : <span style='background-color:yellow ;'>"+ formatterPeso.format(mes)+"</span >" );
                break;
                case"6":
-               totalp = tam*1031;
+               totalp = tam*1279;
                document.getElementById("result").innerHTML = ("El valor estimado de una intervencion de limpieza es : <span style='background-color:yellow ;'> "+ formatterPeso.format(totalp)+"</span >" );
-               mes=totalp*4.345;
-               document.getElementById("result1").innerHTML = ("El valor estimado de su limpieza mensual es : <span style='background-color:yellow ;'>"+ formatterPeso.format(mes)+"</span >" );
-               break;
+               //mes=totalp*4.345;
+               document.getElementById("result1").innerHTML = ("Este servicio no puede ser ofertado mensualmente" );               break;
                case"7":
-               totalp = tam*1117;
+               totalp = tam*1378;
                document.getElementById("result").innerHTML = ("El valor estimado de una intervencion de limpieza es : <span style='background-color:yellow ;'> "+ formatterPeso.format(totalp)+"</span >" );
-               mes=totalp*4.345;
-               document.getElementById("result1").innerHTML = ("El valor estimado de su limpieza mensual es : <span style='background-color:yellow ;'>"+ formatterPeso.format(mes)+"</span >" );
+               //mes=totalp*4.345;
+               document.getElementById("result1").innerHTML = ("Este servicio no puede ser ofertado mensualmente" );
                break;
             }
             break ;
@@ -71,40 +70,40 @@ if(tam>0){
                 document.getElementById("result").innerHTML = ("Debe seleccionar la recurrencia ");
                 break;
                 case"1":
-                totalp = tam*1030;
+                totalp = tam*1195;
                 document.getElementById("result").innerHTML = ("El valor estimado de una intervencion de limpieza es : <span style='background-color:yellow ;'> "+ formatterPeso.format(totalp)+"</span >" );
                 mes=totalp*4.345;
                 document.getElementById("result1").innerHTML = ("El valor estimado de su limpieza mensual es : <span style='background-color:yellow ;'>"+ formatterPeso.format(mes)+"</span >" );
                 break;
                 case"2":
-                totalp = tam*956;
+                totalp = tam*1109;
                 document.getElementById("result").innerHTML = ("El valor estimado de una intervencion de limpieza es : <span style='background-color:yellow ;'> "+ formatterPeso.format(totalp)+"</span >" );
                 mes=totalp*4.345;
                 document.getElementById("result1").innerHTML = ("El valor estimado de su limpieza mensual es : <span style='background-color:yellow ;'>"+ formatterPeso.format(mes)+"</span >" );
                 break;
                 case"3":
-                totalp = tam*890;
+                totalp = tam*1033;
                 document.getElementById("result").innerHTML = ("El valor estimado de una intervencion de limpieza es : <span style='background-color:yellow ;'> "+ formatterPeso.format(totalp)+"</span >" );
                 mes=totalp*4.345;
                 document.getElementById("result1").innerHTML = ("El valor estimado de su limpieza mensual es : <span style='background-color:yellow ;'>"+ formatterPeso.format(mes)+"</span >" );
                 break;
                 case"5":
-                totalp = tam*824;
+                totalp = tam*956;
                 document.getElementById("result").innerHTML = ("El valor estimado de una intervencion de limpieza es : <span style='background-color:yellow ;'> "+ formatterPeso.format(totalp)+"</span >" );
                 mes=totalp*4.345;
                 document.getElementById("result1").innerHTML = ("El valor estimado de su limpieza mensual es : <span style='background-color:yellow ;'>"+ formatterPeso.format(mes)+"</span >" );
                 break;
                 case"6":
-                totalp = tam*1236;
+                totalp = tam*1554;
                 document.getElementById("result").innerHTML = ("El valor estimado de una intervencion de limpieza es : <span style='background-color:yellow ;'> "+ formatterPeso.format(totalp)+"</span >" );
-                mes=totalp*4.345;
-                document.getElementById("result1").innerHTML = ("El valor estimado de su limpieza mensual es : <span style='background-color:yellow ;'>"+ formatterPeso.format(mes)+"</span >" );
+                //mes=totalp*4.345;
+                document.getElementById("result1").innerHTML = ("Este servicio no puede ser ofertado mensualmente" );
                 break;
                 case"7":
-                totalp = tam*1339;
+                totalp = tam*1673;
                 document.getElementById("result").innerHTML = ("El valor estimado de una intervencion de limpieza es : <span style='background-color:yellow ;'> "+ formatterPeso.format(totalp)+"</span >" );
-               mes=totalp*4.345;
-               document.getElementById("result1").innerHTML = ("El valor estimado de su limpieza mensual es : <span style='background-color:yellow ;'>"+ formatterPeso.format(mes)+"</span >" );
+               //mes=totalp*4.345;
+                document.getElementById("result1").innerHTML = ("Este servicio no puede ser ofertado mensualmente" );
                 break;
              }
              break ;
